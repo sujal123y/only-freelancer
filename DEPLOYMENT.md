@@ -11,7 +11,9 @@ Your project is currently active and reachable at both locations:
 | Environment | URL | Status | Details |
 | :--- | :--- | :--- | :--- |
 | **Local Host** | `http://localhost:5000` | 🟢 Active | Unified Node.js API + compiled Vite frontend |
-| **Live Public Host** | `https://lenders-manufacturing-blocking-satisfied.trycloudflare.com` | 🟢 Active | SSL-secured worldwide public URL |
+| **GitHub Live Link** | `https://sujal123y.github.io/only-freelancer/` | 🟢 Active | Permanent 24/7 Global CDN Hosted on GitHub Pages |
+| **GitHub Repository** | `https://github.com/sujal123y/only-freelancer` | 🟢 Active | Full source code, Three.js engine & workflows |
+| **Live Full-Stack Host** | `https://lenders-manufacturing-blocking-satisfied.trycloudflare.com` | 🟢 Active | Connected to live Express API & SQLite Database |
 
 ---
 
