@@ -124,3 +124,4 @@ docker run -d -p 5000:5000 -v $(pwd)/data:/app/data -v $(pwd)/uploads:/app/uploa
 Copyright © 2026 ONLY FREELANCER STUDIO. All rights reserved.
 Official Discord: [https://discord.gg/onlyfreelancer](https://discord.gg/onlyfreelancer)  
 Official Instagram: [@only.freelancer](https://www.instagram.com/only.freelancer?dlrf=ZDNlZDc0MzIxNw==)
+

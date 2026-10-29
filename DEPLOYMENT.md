@@ -11,7 +11,7 @@ Your project is currently active and reachable at both locations:
 | Environment | URL | Status | Details |
 | :--- | :--- | :--- | :--- |
 | **Local Host** | `http://localhost:5000` | 🟢 Active | Unified Node.js API + compiled Vite frontend |
-| **Live Public Host** | `https://midnight-temporary-climate-collected.trycloudflare.com` | 🟢 Active | SSL-secured worldwide public URL |
+| **Live Public Host** | `https://lenders-manufacturing-blocking-satisfied.trycloudflare.com` | 🟢 Active | SSL-secured worldwide public URL |
 
 ---
 
