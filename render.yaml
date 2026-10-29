@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: only-freelancer
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: INITIAL_ADMIN_EMAIL
+        value: admin@onlyfreelancer.com
+      - key: INITIAL_ADMIN_PASSWORD
+        value: AdminSecure2026!
+      - key: REGISTRATION_OPEN
+        value: "true"
+      - key: DISCORD_URL
+        value: https://discord.gg/onlyfreelancer
+      - key: INSTAGRAM_URL
+        value: https://www.instagram.com/only.freelancer?dlrf=ZDNlZDc0MzIxNw==
+    disk:
+      name: sqlite-data
+      mountPath: /app/data
+      sizeGB: 1

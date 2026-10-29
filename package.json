@@ -1,0 +1,31 @@
+{
+  "name": "only-freelancer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n \"server,client\" -c \"magenta,cyan\" \"node server/index.js\" \"vite\"",
+    "server": "node server/index.js",
+    "client": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js",
+    "tunnel": "npx cloudflared tunnel --url http://localhost:5000",
+    "live": "concurrently -k -n \"server,tunnel\" -c \"magenta,cyan\" \"node server/index.js\" \"npx cloudflared tunnel --url http://localhost:5000\""
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "bcryptjs": "^3.0.3",
+    "concurrently": "^10.0.6",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.62.0",
+    "motion": "^14.7.1",
+    "multer": "^2.5.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.186.1",
+    "vite": "^8.3.5"
+  }
+}
