@@ -13,8 +13,8 @@ build/
 .env.*.local
 
 # Databases & Runtime State
-data/
-uploads/
+/data/
+/uploads/
 *.sqlite
 *.sqlite3
 *.db
