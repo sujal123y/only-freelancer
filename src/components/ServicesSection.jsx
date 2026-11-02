@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { DEFAULT_SERVICES } from '../data/fallbackData';
 import { motion, AnimatePresence } from 'motion/react';
 import {
   Film,
@@ -67,7 +68,7 @@ const serviceWorkflows = {
 };
 
 export default function ServicesSection({ onDiscussProject }) {
-  const [services, setServices] = useState([]);
+  const [services, setServices] = useState(DEFAULT_SERVICES);
   const [loading, setLoading] = useState(true);
   const [activeModalService, setActiveModalService] = useState(null);
   const [hoveredIdx, setHoveredIdx] = useState(null);

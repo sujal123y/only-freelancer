@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { DEFAULT_PORTFOLIO } from '../data/fallbackData';
 import { motion, AnimatePresence } from 'motion/react';
 import { ExternalLink, Sparkles, Filter, X, CheckCircle2, ArrowRight, ArrowUpRight } from 'lucide-react';
 
 export default function PortfolioSection({ onCommissionProject }) {
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState(DEFAULT_PORTFOLIO);
   const [activeCategory, setActiveCategory] = useState('All');
   const [selectedProject, setSelectedProject] = useState(null);
   const [loading, setLoading] = useState(true);
